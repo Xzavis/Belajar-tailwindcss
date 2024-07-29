@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link font google -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <!-- TAILWINDCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    spacing: {
+                        13: "4.25rem"
+                    },
+                    colors: {
+                        wpu: "#bada55",
+                        purple : "#000"
+                    },
+                    fontFamily: {
+                        inter: ['Inter'],
+                    },
+                },
+            },
+        };
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="my-6">
+                <h1 class="text-center text-8xl font-bold font-inter bg-gradient-to-r from-blue-600 to-teal-500 text-transparent bg-clip-text">Tailwindcss</h1>
+                <section class="bg-indigo-400 text-center p-13">
+                    <div>
+                        <h1 class="bg-gradient-to-bl from-green-500 via-wpu to-yellow-400  p-12 rounded-lg">Spacing</h1>
+                    </div>
+                    <div>
+                        <h1 class="m-13 bg-blue-600 p-12 rounded-lg">Margin</h1>
+                    </div>
+                    <div>
+                        <h1 class="bg-yellow-500 p-12 rounded-lg">padding</h1>
+                    </div>
+                </section>
+            </div>
+
+            <div class="bg-slate-100 pb-96 font-inter ">
+                <div class="max-w-auto mx-12 py-12 ">
+                    <h2 class="mb-3 text-4xl font-bold">Belajar Mengenal Typography pada tailwindcss</h2>
+                    <div class=" mb-4 text-base text-gray-700 font-medium ">
+                        By Xza Abdul Malik I, 27 Octo 2006
+                    </div>
+
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ullam iusto
+                        <span class=" underline font-semibold">assumenda</span> labore eos voluptatum, esse nemo est ex
+                        alias beatae, natus ducimus quasi, reiciendis
+                        itaque minus ratione asperiores earum! Reprehenderit neque blanditiis possimus provident at ad
+                        molestias, eligendi ea quae quos eos, sequi, ab alias natus libero facilis. Nobis.
+                    </p>
+
+                    <p class="mb-4 italic">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus itaque saepe
+                        fugit
+                        iusto cupiditate sed! Culpa quo nesciunt facilis sunt?"</p>
+
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur omnis reiciendis
+                        reprehenderit cumque quaerat odio facilis quibusdam saepe voluptatem eaque deserunt officiis
+                        eligendi animi magnam hic dolor, laboriosam molestias esse!</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
